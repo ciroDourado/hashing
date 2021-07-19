@@ -1,0 +1,5 @@
+opção windows - https://www.nirsoft.net/utils/hash_my_files.html
+openssl md5 gyra_coll.jpg
+MD5(gyra_coll.jpg)= 59bbfd270bdf5817c5d77e739839a02a
+openssl md5 souvlaki_coll.jpg
+MD5(souvlaki_coll.jpg)= 59bbfd270bdf5817c5d77e739839a02a
