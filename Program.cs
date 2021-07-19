@@ -32,10 +32,10 @@ namespace hashing {
                 "[Jazz - 1978]";
             musicas.Inserir(chaveQueen, valorQueen);
 
-            Console.WriteLine("Aerosmith          => " + musicas.Valor("Aerosmith"));
-            Console.WriteLine("The Rolling Stones => " + musicas.Valor("The Rolling Stones"));
-            Console.WriteLine("austin chen        => " + musicas.Valor("austin chen"));
-            Console.WriteLine("Queen              => " + musicas.Valor("Queen"));
+            Console.WriteLine("Aerosmith          => " + musicas["Aerosmith"]);
+            Console.WriteLine("The Rolling Stones => " + musicas["The Rolling Stones"]);
+            Console.WriteLine("austin chen        => " + musicas["austin chen"]);
+            Console.WriteLine("Queen              => " + musicas["Queen"]);
         } // Main
 
     } // class Program
