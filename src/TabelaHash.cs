@@ -101,5 +101,10 @@ namespace hashing.src {
             return "null"; /*    se nao achou nada: */
         } // get Valor
 
+
+		public object this[object chave] {
+			get => Valor(chave);
+		} // indexador
+
     } // class TabelaHash
 } // namespace hashing.src
